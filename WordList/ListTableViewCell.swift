@@ -10,8 +10,8 @@ import UIKit
 
 class ListTableViewCell: UITableViewCell {
     
-    @IBOutlet var englishLabel: UILabel!
-     @IBOutlet var japaneseLabel: UILabel!
+    @IBOutlet var todoLabel: UILabel!
+     @IBOutlet var whenLabel: UILabel!
     
 
     override func awakeFromNib() {

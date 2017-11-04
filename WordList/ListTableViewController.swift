@@ -54,8 +54,8 @@ class ListTableViewController: UITableViewController {
         
         let nowIndexPathDictionary = wordArray[indexPath.row]
         
-        cell.englishLabel.text = nowIndexPathDictionary["english"]
-        cell.japaneseLabel.text = nowIndexPathDictionary["japanese"]
+        cell.todoLabel.text = nowIndexPathDictionary["todo"]
+        cell.whenLabel.text = nowIndexPathDictionary["when"]
         
         return cell
     }

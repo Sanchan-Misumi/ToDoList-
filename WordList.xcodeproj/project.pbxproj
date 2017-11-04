@@ -80,9 +80,9 @@
 		EE218C471FADE88A00ACE99F /* SE_fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE218BF61FADE88A00ACE99F /* SE_fire.mp3 */; };
 		EE218C481FADE88A00ACE99F /* SE_gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE218BF71FADE88A00ACE99F /* SE_gameover.mp3 */; };
 		EE218C4E1FADEE7E00ACE99F /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE218C4D1FADEE7E00ACE99F /* ListTableViewController.swift */; };
-		EE218C521FADEF2E00ACE99F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE218C511FADEF2E00ACE99F /* AddViewController.swift */; };
 		EE218C551FADF85A00ACE99F /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE218C531FADF85A00ACE99F /* ListTableViewCell.swift */; };
 		EE218C561FADF85A00ACE99F /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE218C541FADF85A00ACE99F /* ListTableViewCell.xib */; };
+		EE218C581FAE08B200ACE99F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE218C571FAE08B200ACE99F /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,9 +220,9 @@
 		EE218BF61FADE88A00ACE99F /* SE_fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_fire.mp3; sourceTree = "<group>"; };
 		EE218BF71FADE88A00ACE99F /* SE_gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_gameover.mp3; sourceTree = "<group>"; };
 		EE218C4D1FADEE7E00ACE99F /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
-		EE218C511FADEF2E00ACE99F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		EE218C531FADF85A00ACE99F /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		EE218C541FADF85A00ACE99F /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		EE218C571FAE08B200ACE99F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +282,7 @@
 				EE218C4D1FADEE7E00ACE99F /* ListTableViewController.swift */,
 				EE218C531FADF85A00ACE99F /* ListTableViewCell.swift */,
 				EE218C541FADF85A00ACE99F /* ListTableViewCell.xib */,
+				EE218C571FAE08B200ACE99F /* AddViewController.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -310,7 +311,6 @@
 				EE218B901FADE88900ACE99F /* 1-初級素材 */,
 				EE218BC31FADE88A00ACE99F /* 2-中級素材 */,
 				EE218BE01FADE88A00ACE99F /* 3-上級素材 */,
-				EE218C511FADEF2E00ACE99F /* AddViewController.swift */,
 			);
 			path = "iP_素材-2";
 			sourceTree = "<group>";
@@ -836,13 +836,13 @@
 			files = (
 				EE218C401FADE88A00ACE99F /* Player.swift in Sources */,
 				EE218C131FADE88A00ACE99F /* ViewController.swift in Sources */,
+				EE218C581FAE08B200ACE99F /* AddViewController.swift in Sources */,
 				EE218C071FADE88A00ACE99F /* AppDelegate.swift in Sources */,
 				EE218C4E1FADEE7E00ACE99F /* ListTableViewController.swift in Sources */,
 				EE218C551FADF85A00ACE99F /* ListTableViewCell.swift in Sources */,
 				EE218C1E1FADE88A00ACE99F /* QuizViewController.swift in Sources */,
 				EE218C0D1FADE88A00ACE99F /* ViewController.swift in Sources */,
 				EE218C151FADE88A00ACE99F /* AppDelegate.swift in Sources */,
-				EE218C521FADEF2E00ACE99F /* AddViewController.swift in Sources */,
 				EE218C3F1FADE88A00ACE99F /* Enemy.swift in Sources */,
 				EE218C0E1FADE88A00ACE99F /* AppDelegate.swift in Sources */,
 				EE218C411FADE88A00ACE99F /* TechDraUtil.swift in Sources */,
